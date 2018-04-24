@@ -7,6 +7,7 @@ import java.util.*;
 import static com.mcakir.scanner.Util.*;
 import static org.opencv.core.CvType.CV_8UC1;
 import static org.opencv.imgproc.Imgproc.*;
+import static org.opencv.imgproc.Imgproc.drawContours;
 
 public class Scanner {
 
@@ -244,8 +245,8 @@ public class Scanner {
 
             if(selection != null){
 
-                putText(source.submat(roi), "(" + i + "_" + selection[2] + ")", new Point(rows.get(selection[2]).get(0, 0)), Core.FONT_HERSHEY_SIMPLEX, 0.3, new Scalar(0, 255, 0));
-
+//                putText(source.submat(roi), "(" + i + "_" + selection[2] + ")", new Point(rows.get(selection[2]).get(0, 0)), Core.FONT_HERSHEY_SIMPLEX, 0.3, new Scalar(0, 255, 0));
+                drawContours(source.submat(roi), Arrays.asList(rows.get(selection[2])), -1, new Scalar(0, 255, 0), 3);
             }
 
             answers.add(selection == null ? null : selection[2]);
