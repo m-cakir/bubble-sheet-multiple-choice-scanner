@@ -35,9 +35,9 @@ Run/Debug Configuration -> Application -> VM options
 
 ## Sources
 
-* Pdf - Bubble Sheet Form
-* Inputs - Example Sheet 1 & 2
-* Outputs for Sheet 1 & 2
+* Pdf - [Bubble Sheet Form](sources/bubble-sheet.pdf)
+* Inputs - Example Sheet [1](sources/sheet-1.jpg) & [2](sources/sheet-2.jpg)
+* Outputs for Sheet [1](sources/result-sheet-1.png) & [2](sources/result-sheet-2.png)
 
 ## Running
 
