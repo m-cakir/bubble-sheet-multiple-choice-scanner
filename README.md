@@ -4,7 +4,7 @@ Bubble sheet multiple choice scanner example with OpenCV Java.
 
 ## Install
 
-Download OpenCV from [offical site](https://opencv.org/releases.html). After then add library to project and set VM options as following.
+Download OpenCV from [official site](https://opencv.org/releases.html). Then add library to project and set VM options as following.
 
 ``` 
 // native library path 
