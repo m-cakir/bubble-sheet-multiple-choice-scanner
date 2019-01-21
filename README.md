@@ -1,6 +1,6 @@
 # Bubble Sheet Multiple Choice Scanner
 
-Bubble sheet multiple choice scanner example with OpenCV Java.
+Bubble sheet multiple choice scanner example with OpenCV Java (opencv-3.4.0).
 
 ## Install
 
